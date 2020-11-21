@@ -3,36 +3,86 @@
 		"link": "https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0"
 	},
 	"days": [{
-		"id": 1,
-		"Day": "698",
-		"AT": {
-			"av": -69.505,
-			"ct": 225760,
-			"mn": -96.378,
-			"mx": -14.578
+			"id": 1,
+			"Day": "698",
+			"AT": {
+				"av": -69.505,
+				"ct": 225760,
+				"mn": -96.378,
+				"mx": -14.578
+			},
+			"First_UTC": "2020-11-12T09:42:51Z",
+			"HWS": {
+				"av": 6.24,
+				"ct": 113680,
+				"mn": 0.379,
+				"mx": 23.695999999999998
+			},
+			"Last_UTC": "2020-11-13T10:22:25Z",
+			"PRE": {
+				"av": 736.786,
+				"ct": 113316,
+				"mn": 708.1267,
+				"mx": 757.1159
+			},
+			"Season": "fall",
+			"WD": {
+				"0": {
+					"compass_degrees": 0,
+					"compass_point": "N",
+					"compass_right": 0,
+					"compass_up": 1,
+					"ct": 3107
+				},
+				"1": {
+					"compass_degrees": 22.5,
+					"compass_point": "NNE",
+					"compass_right": 0.382683432365,
+					"compass_up": 0.923879532511,
+					"ct": 2632
+				}
+			}
 		},
-		"First_UTC": "2020-11-12T09:42:51Z",
-		"HWS": {
-			"av": 6.24,
-			"ct": 113680,
-			"mn": 0.379,
-			"mx": 23.695999999999998
-		},
-		"Last_UTC": "2020-11-13T10:22:25Z",
-		"PRE": {
-			"av": 736.786,
-			"ct": 113316,
-			"mn": 708.1267,
-			"mx": 757.1159
-		},
-		"Season": "fall",
-		"WD": {
-			"compass_degrees": null,
-			"compass_point": null,
-			"compass_right": null,
-			"compass_up": null,
-			"ct": null
+		{
+			"id": 2,
+			"Day": "699",
+			"AT": {
+				"av": -62.693,
+				"ct": 177556,
+				"mn": -97.819,
+				"mx": -9.942
+			},
+			"First_UTC": "2020-11-13T10:22:26Z",
+			"HWS": {
+				"av": 4.242,
+				"ct": 83079,
+				"mn": 0.133,
+				"mx": 14.196
+			},
+			"Last_UTC": "2020-11-14T11:02:01Z",
+			"PRE": {
+				"av": 731.762,
+				"ct": 88778,
+				"mn": 705.1726,
+				"mx": 753.6258
+			},
+			"Season": "fall",
+			"WD": {
+				"0": {
+					"compass_degrees": 0,
+					"compass_point": "N",
+					"compass_right": 0,
+					"compass_up": 1,
+					"ct": 3107
+				},
+				"1": {
+					"compass_degrees": 22.5,
+					"compass_point": "NNE",
+					"compass_right": 0.382683432365,
+					"compass_up": 0.923879532511,
+					"ct": 2632
+				}
+			}
 		}
-
-	}]
+	]
 }
