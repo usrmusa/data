@@ -142,7 +142,7 @@
 		"next": "https://rickandmortyapi.com/api/character/?page=2",
 		"prev": null
 	},
-	"sol_keys": [{
-		"699": {}
-	}]
+	"sol_keys": [
+		"699"
+	]
 }
